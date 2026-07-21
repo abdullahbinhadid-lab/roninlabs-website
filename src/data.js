@@ -23,7 +23,7 @@ I bridge operational leadership with digital product development — allowing me
     { label: 'Websites Built', value: '16+' },
     { label: 'Web Tools', value: '100+' },
     { label: 'Chrome Extensions', value: '100+' },
-    { label: 'Mobile Apps', value: '10+' },
+    { label: 'Mobile Apps', value: '20+' },
   ],
   experience: [
     {
@@ -35,8 +35,8 @@ I bridge operational leadership with digital product development — allowing me
         'Built 16 websites & platforms across e-commerce, SEO, tech, beauty, and HSE',
         'Developed 100+ free online web tools (SEO, converters, generators, analyzers)',
         'Created 100+ Chrome extensions across productivity, privacy, and developer tools',
-        'Built 10+ mobile apps including calculators, converters, and AI-powered tools',
-        'Published 105+ SEO-optimized blog posts and LinkedIn articles',
+        'Built 20+ mobile apps including calculators, converters, and AI-powered tools',
+        'Published 1000+ SEO-optimized blog posts and LinkedIn articles',
       ],
     },
     {
@@ -110,7 +110,7 @@ I bridge operational leadership with digital product development — allowing me
     },
     {
       name: 'Anatool',
-      description: 'SEO tools platform with 100+ free web tools and 105+ blog posts.',
+      description: 'SEO tools platform with 100+ free web tools and 1000+ blog posts.',
       category: 'SEO Platform',
       icon: 'Search',
       url: 'https://anatool.com',
@@ -385,8 +385,8 @@ I bridge operational leadership with digital product development — allowing me
       deliverables: ['Brand identity guide', 'Content strategy document', 'SEO setup', 'Social media templates'],
       stats: [
         { label: 'Brands Built', value: '8+' },
-        { label: 'Blog Posts Published', value: '105+' },
-        { label: 'SEO Articles', value: '105+' },
+        { label: 'Blog Posts Published', value: '1000+' },
+        { label: 'SEO Articles', value: '1000+' },
         { label: 'Social Channels Setup', value: '5+' },
       ],
       samples: [
