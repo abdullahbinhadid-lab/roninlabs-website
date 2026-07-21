@@ -1,4 +1,4 @@
-import { ArrowDown, Sparkles, Download, Linkedin, Github, Twitter, Mail } from 'lucide-react';
+import { ArrowDown, Sparkles, Download, Linkedin, Github, Mail } from 'lucide-react';
 import { profile } from '../data';
 
 export default function Hero() {
@@ -69,9 +69,6 @@ export default function Hero() {
           </a>
           <a href={profile.social.github} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg glass-card flex items-center justify-center text-gray-400 hover:text-ronin-accent hover:border-ronin-accent/40 transition-all" aria-label="GitHub">
             <Github size={20} />
-          </a>
-          <a href={profile.social.twitter} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg glass-card flex items-center justify-center text-gray-400 hover:text-ronin-accent hover:border-ronin-accent/40 transition-all" aria-label="Twitter">
-            <Twitter size={20} />
           </a>
           <a href={`mailto:${profile.social.email}`} className="w-10 h-10 rounded-lg glass-card flex items-center justify-center text-gray-400 hover:text-ronin-accent hover:border-ronin-accent/40 transition-all" aria-label="Email">
             <Mail size={20} />

@@ -1,4 +1,4 @@
-import { Mail, MapPin, ArrowUpRight, Linkedin, Github, Twitter, Download } from 'lucide-react';
+import { Mail, MapPin, ArrowUpRight, Linkedin, Github, Download } from 'lucide-react';
 import { profile } from '../data';
 
 export default function Contact() {
@@ -43,9 +43,6 @@ export default function Contact() {
               </a>
               <a href={profile.social.github} target="_blank" rel="noopener noreferrer" className="w-11 h-11 rounded-xl glass-card flex items-center justify-center text-gray-400 hover:text-ronin-accent hover:border-ronin-accent/40 transition-all" aria-label="GitHub">
                 <Github size={20} />
-              </a>
-              <a href={profile.social.twitter} target="_blank" rel="noopener noreferrer" className="w-11 h-11 rounded-xl glass-card flex items-center justify-center text-gray-400 hover:text-ronin-accent hover:border-ronin-accent/40 transition-all" aria-label="Twitter">
-                <Twitter size={20} />
               </a>
               <a href={`mailto:${profile.social.email}`} className="w-11 h-11 rounded-xl glass-card flex items-center justify-center text-gray-400 hover:text-ronin-accent hover:border-ronin-accent/40 transition-all" aria-label="Email">
                 <Mail size={20} />
