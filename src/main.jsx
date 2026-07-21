@@ -8,7 +8,7 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ErrorBoundary>
-      <BrowserRouter basename="/roninlabs-website">
+      <BrowserRouter>
         <App />
       </BrowserRouter>
     </ErrorBoundary>
