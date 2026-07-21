@@ -3,12 +3,12 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X, ArrowUpRight } from 'lucide-react';
 
 const navLinks = [
-  { label: 'About', href: '/#about' },
-  { label: 'Experience', href: '/#experience' },
-  { label: 'Projects', href: '/#projects' },
-  { label: 'Services', href: '/services' },
-  { label: 'Skills', href: '/#skills' },
-  { label: 'Certs', href: '/#certifications' },
+  { label: 'About', href: '#about' },
+  { label: 'Experience', href: '#experience' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Services', href: 'services' },
+  { label: 'Skills', href: '#skills' },
+  { label: 'Certs', href: '#certifications' },
 ];
 
 export default function Navbar() {
@@ -26,9 +26,9 @@ export default function Navbar() {
   const handleNavClick = (e, href) => {
     setMobileOpen(false);
 
-    if (href.startsWith('/#')) {
+    if (href.startsWith('#')) {
       e.preventDefault();
-      const anchor = href.substring(2);
+      const anchor = href.substring(1);
 
       if (location.pathname !== '/') {
         navigate('/');
@@ -81,7 +81,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2 flex-shrink-0">
             <a
               href="#contact"
-              onClick={(e) => handleNavClick(e, '/#contact')}
+              onClick={(e) => handleNavClick(e, '#contact')}
               className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 gradient-bg text-white text-sm font-semibold rounded-xl hover:opacity-90 transition-opacity shadow-lg shadow-ronin-accent/20"
             >
               Let's Talk
@@ -113,7 +113,7 @@ export default function Navbar() {
             ))}
             <a
               href="#contact"
-              onClick={(e) => handleNavClick(e, '/#contact')}
+              onClick={(e) => handleNavClick(e, '#contact')}
               className="flex items-center justify-center gap-2 px-4 py-3 mt-2 gradient-bg text-white text-sm font-semibold rounded-xl"
             >
               Let's Talk
