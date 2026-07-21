@@ -1,8 +1,46 @@
 {
-  "hash": "e852906f",
+  "hash": "1e6a02e0",
   "configHash": "abff7cd9",
-  "lockfileHash": "e3b0c442",
-  "browserHash": "12edd492",
-  "optimized": {},
-  "chunks": {}
+  "lockfileHash": "706d5c23",
+  "browserHash": "6fcbb6a6",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "ba772a58",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "13eda9ed",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "ded803ca",
+      "needsInterop": false
+    },
+    "lucide-react": {
+      "src": "../../node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "06cb7803",
+      "needsInterop": false
+    },
+    "react-pdf": {
+      "src": "../../node_modules/react-pdf/dist/index.js",
+      "file": "react-pdf.js",
+      "fileHash": "c5d2d8db",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-NEXMQ5JR": {
+      "file": "chunk-NEXMQ5JR.js"
+    },
+    "chunk-5Q4NG4DT": {
+      "file": "chunk-5Q4NG4DT.js"
+    }
+  }
 }

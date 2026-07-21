@@ -8,10 +8,10 @@ export const profile = {
   photo: '/profile-photo.jpg',
   resume: '/Abdullah_Alhadidi_Resume.pdf',
   social: {
-    linkedin: 'https://www.linkedin.com/in/abdullah-alhadidi/',
-    github: 'https://github.com/roninlabs',
+    linkedin: 'https://www.linkedin.com/in/abdullah-alhadidi1/',
+    github: 'https://github.com/abdullahbinhadid-lab',
     twitter: 'https://twitter.com/roninlabs',
-    email: 'hello@roninlabs.online',
+    email: 'abdullah.binhadid@gmail.com',
   },
   about: `Hybrid Operations and Project Manager with 7+ years of experience across multiple roles — from supervising logistics operations and leading technical STEM teams to building and managing digital products and brands.
 
@@ -493,7 +493,7 @@ I bridge operational leadership with digital product development — allowing me
     },
   ],
   contact: {
-    email: 'hello@roninlabs.online',
+    email: 'abdullah.binhadid@gmail.com',
     location: 'Muscat, Oman',
   },
 };
