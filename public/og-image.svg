@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a0a0f"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#grad)"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <text x="600" y="280" font-family="Inter, sans-serif" font-size="72" font-weight="900" fill="#ffffff" text-anchor="middle">Ronin Labs</text>
+  <text x="600" y="350" font-family="Inter, sans-serif" font-size="32" font-weight="400" fill="#9ca3af" text-anchor="middle">Abdullah Alhadidi</text>
+  <text x="600" y="410" font-family="Inter, sans-serif" font-size="24" font-weight="300" fill="#6b7280" text-anchor="middle">Digital Product Development | Operations | AI Strategy</text>
+  <rect x="540" y="460" width="120" height="6" rx="3" fill="#00d4ff"/>
+</svg>
